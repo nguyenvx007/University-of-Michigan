@@ -1,0 +1,1 @@
+# Create a tuple called olympics with four elements: “Beijing”, “London”, “Rio”, “Tokyo”.
