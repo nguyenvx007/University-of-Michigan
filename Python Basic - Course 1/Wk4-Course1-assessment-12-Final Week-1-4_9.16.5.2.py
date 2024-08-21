@@ -14,12 +14,11 @@
 #
 stopwords = ['to', 'a', 'for', 'by', 'an', 'am', 'the', 'so', 'it', 'and', "The"]
 org = "The organization for health, safety, and education"
-org = org.lower() 
-org = org.replace(",","") # strip comma
+# Convert Org String to List
 org = org.split() # split string to list variable
 acro = ""
+# 1) Compare Org workds to stopworkds 2) If not, take first letter and add to acro string
 for wrd in org:
-    if wrd not in stopwords:
-        acro = acro + wrd[0]
-acro = acro.upper()
+    if wrd.casefold() not in stopwords:
+        acro = acro + wrd[0].capitalize()
 print(acro)
