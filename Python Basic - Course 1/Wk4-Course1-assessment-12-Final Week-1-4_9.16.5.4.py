@@ -13,17 +13,13 @@ p_phrase = "was it a car or a cat I saw"
 # 5. Print p_phrase
 # 6. Print r_phrase
 #
+p_phrase = p_phrase.replace(" ","")
+p_phrase = p_phrase.lower()
 r_phrase = p_phrase[::-1]
-# p_phrase = p_phrase.replace(" ","")
-# p_phrase = p_phrase.lower()
-
 #### The following were moved -- unnecessary and affected the assignment grading.
-# if p_phrase == r_phrase:
-#     print("p_phrase is a palindrome.")
-# else:
-#     print("p_prhase is not a palindrome.")
-
-print("p_phrase: ",p_phrase)
-print("r_phrase: ",r_phrase)
+if p_phrase == r_phrase:
+    print("p_phrase is a palindrome.")
+else:
+    print("p_prhase is not a palindrome.")
 
 
