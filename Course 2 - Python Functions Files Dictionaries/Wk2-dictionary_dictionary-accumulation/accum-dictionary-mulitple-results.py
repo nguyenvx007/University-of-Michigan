@@ -1,6 +1,6 @@
-# Accumulating Multiple Results in Dictionary
+# Accumulating Multiple Results in Dictionary - number of characters "a" and "b"
 
-fileref = open("test.txt","r")
+fileref = open("test","r")
 chars = fileref.read()
 dict = {}
 dict['a'] = 0

@@ -2,8 +2,6 @@
 
 product = "iphone and android phones"
 
-product = "iphone and android phones"
-
 # Accumulate to dictionary chars keys and number of chars
 lett_d = {}
 for char in product:
